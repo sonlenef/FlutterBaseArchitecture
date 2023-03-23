@@ -1,0 +1,7 @@
+{
+  "appTitle": "flutter_base_architecture",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "saveAccessTokenError": "Can not save access token"
+}
