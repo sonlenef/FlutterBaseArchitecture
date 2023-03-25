@@ -11,6 +11,7 @@ environment:
 
 dependencies:
   build_runner: ^2.3.3
+  collection: ^1.17.0
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -20,7 +21,10 @@ dependencies:
   injectable: ^2.1.0
   injectable_generator: ^2.1.4
 
+  provider: ^6.0.5
+  rxdart: ^0.27.7
   shared_preferences: ^2.0.18
+  tuple: ^2.0.1
 
 dev_dependencies:
   flutter_test:

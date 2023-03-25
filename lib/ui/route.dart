@@ -20,9 +20,9 @@ extension AppRouteExt on AppRoute {
   get page {
     switch (this) {
       case AppRoute.splash:
-        return MaterialPageRoute(builder: (_) => const Splash());
+        return MaterialPageRoute(builder: (_) => const SplashPage());
       case AppRoute.home:
-        return MaterialPageRoute(builder: (_) => const Home());
+        return MaterialPageRoute(builder: (_) => const HomePage());
     }
   }
 }

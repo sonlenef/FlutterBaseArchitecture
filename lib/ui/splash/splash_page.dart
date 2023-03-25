@@ -2,19 +2,19 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import '../../define.dart';
+import '../define.dart';
 
-class Splash extends StatefulWidget {
-  const Splash({super.key});
+class SplashPage extends StatefulWidget {
+  const SplashPage({super.key});
 
   @override
-  State<StatefulWidget> createState() => SplashState();
+  State<StatefulWidget> createState() => _SplashPageState();
 }
 
-class SplashState extends State<Splash> {
+class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text("Splash screen"));
+    return const Scaffold(body: Center(child: Text("Splash screen")));
   }
 
   @override
