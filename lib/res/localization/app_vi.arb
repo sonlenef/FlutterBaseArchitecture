@@ -2,5 +2,6 @@
   "appTitle": "flutter_base_architecture (VN)",
   "@appTitle": {
     "description": "The title of the application (VN)"
-  }
+  },
+  "saveAccessTokenError": "Can not save access token"
 }
