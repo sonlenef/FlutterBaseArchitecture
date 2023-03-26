@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       animation: settingsController,
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
+          debugShowCheckedModeBanner: false,
           // Providing a restorationScopeId allows the Navigator built by the
           // MaterialApp to restore the navigation stack when a user leaves and
           // returns to the app after it has been killed while running in the
@@ -35,10 +36,7 @@ class MyApp extends StatelessWidget {
             GlobalWidgetsLocalizations.delegate,
             GlobalCupertinoLocalizations.delegate,
           ],
-          supportedLocales: const [
-            Locale('en', 'US'), // English, no country code
-            Locale('vn', 'VN')
-          ],
+          supportedLocales: AppLocalizations.supportedLocales,
 
           // Use AppLocalizations to configure the correct application title
           // depending on the user's locale.
