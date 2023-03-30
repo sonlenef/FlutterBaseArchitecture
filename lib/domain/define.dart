@@ -6,3 +6,4 @@ export 'entities/user.dart';
 export 'exception/local_exception.dart';
 export 'exception/remote_exception.dart';
 export 'repository/app_repository.dart';
+export 'exception/mapper/exception_mapper.dart';
