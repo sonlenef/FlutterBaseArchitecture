@@ -1,4 +1,4 @@
-# flutter_base_architecture
+# Flutter Base Architecture
 
 A Base Flutter Architecture.
 
